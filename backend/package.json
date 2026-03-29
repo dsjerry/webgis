@@ -1,0 +1,35 @@
+{
+  "name": "webgis-backend",
+  "version": "1.0.0",
+  "description": "WebGIS Spatial API - NestJS Backend",
+  "scripts": {
+    "build": "nest build",
+    "start": "nest start",
+    "dev": "nest start --watch",
+    "start:prod": "node dist/main"
+  },
+  "dependencies": {
+    "@nestjs/common": "^10.4.15",
+    "@nestjs/core": "^10.4.15",
+    "@nestjs/platform-express": "^10.4.15",
+    "@nestjs/config": "^3.3.0",
+    "@nestjs/swagger": "^8.0.4",
+    "@nestjs/typeorm": "^10.0.2",
+    "typeorm": "^0.3.20",
+    "pg": "^8.13.1",
+    "reflect-metadata": "^0.2.2",
+    "rxjs": "^7.8.1",
+    "class-validator": "^0.14.1",
+    "class-transformer": "^0.5.1",
+    "@turf/turf": "^7.2.0"
+  },
+  "devDependencies": {
+    "@nestjs/cli": "^10.4.9",
+    "@nestjs/schematics": "^10.2.3",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.10.2",
+    "@types/pg": "^8.11.10",
+    "typescript": "^5.7.2",
+    "ts-node": "^10.9.2"
+  }
+}
