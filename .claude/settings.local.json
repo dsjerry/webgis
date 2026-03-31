@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx vite:*)",
+      "Bash(grep \"spacing\" dist/assets/index-*.css)",
+      "Bash(grep -E \"^\\\\.gap-\" dist/assets/index-*.css)",
+      "Bash(grep \"gap\" dist/assets/index-*.css)",
+      "Bash(grep -v \"//\")"
+    ]
+  }
+}

@@ -28,6 +28,8 @@ export interface Phase {
   titleEn: string
   icon: string
   color: string
+  /** Optional Tailwind background classes for sidebar phase icon */
+  bgColor?: string
   modules: Module[]
 }
 
